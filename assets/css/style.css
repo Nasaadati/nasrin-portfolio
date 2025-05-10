@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4faff;
+  color: #1e2a36;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Header */
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e3ecf3;
+  padding: 20px 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  font-size: 22px;
+  font-weight: 600;
+  color: #004aad;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+nav a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #0078ff;
+}
+
+/* Hero Section */
+.hero-fullscreen {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #f7fbff, #eaf6ff);
+  display: flex;
+  align-items: center;
+}
+
+.hero-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.left-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hello {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #1e2a36;
+}
+
+.left-content h2 {
+  color: #004aad;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.left-content p {
+  color: #444;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.pill {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.resume {
+  background: #0078ff;
+}
+
+.projects {
+  background: #004aad;
+}
+
+.contact {
+  background: #1ccfcf;
+}
+
+.pill:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Image Styling */
+.right-content {
+  flex: 1;
+  text-align: center;
+}
+
+.circle-wrap img {
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.1), 0 0 0 1px #ffffff;
+  background: #ffffff;
+  transition: transform 0.3s ease;
+}
+
+.circle-wrap img:hover {
+  transform: scale(1.08);
+}
+
+footer.footer {
+  padding: 20px 0;
+  background: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+copyright {
+  font-size: 13px;
+  color: #aaa;
+}

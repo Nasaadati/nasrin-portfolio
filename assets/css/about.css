@@ -1,0 +1,169 @@
+/* About Hero Banner */
+.about-hero-alt {
+  background: linear-gradient(to right, #f6fbff, #eaf3ff);
+  padding: 100px 20px 60px;
+  text-align: center;
+}
+
+.about-hero-alt h1 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.lead-text {
+  font-size: 18px;
+  color: #444;
+  max-width: 700px;
+  margin: 20px auto;
+  font-weight: 400;
+}
+
+.intro-text {
+  font-size: 17px;
+  color: #555;
+  max-width: 720px;
+  margin: 0 auto 40px;
+  line-height: 1.7;
+}
+
+/* Timeline */
+.timeline-wrapper {
+  background: #f8fcff;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.timeline-container {
+  position: relative;
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.timeline-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 4px;
+  background: #0078ff;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.timeline-entry {
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.timeline-entry .content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  position: relative;
+  z-index: 2;
+}
+
+.timeline-entry.left {
+  left: 0;
+  text-align: right;
+  padding-right: 60px;
+}
+
+.timeline-entry.right {
+  left: 50%;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.timeline-entry h3 {
+  margin-top: 0;
+  color: #0078ff;
+  font-size: 18px;
+}
+
+.timeline-entry p {
+  margin: 10px 0 0;
+  color: #333;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+/* Quote Section */
+.quote-area {
+  padding: 60px 20px 40px;
+  background: #f0f8ff;
+  text-align: center;
+}
+
+.quote-area blockquote {
+  font-size: 20px;
+  font-style: italic;
+  color: #0078ff;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .about-hero-alt h1 {
+    font-size: 34px;
+  }
+  .timeline-entry,
+  .timeline-entry.left,
+  .timeline-entry.right {
+    left: 0 !important;
+    width: 100%;
+    text-align: left;
+    padding: 20px 20px;
+  }
+  .timeline-line {
+    left: 20px;
+  }
+}
+
+/* Skills Grid */
+/* .skills-grid h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #004aad;
+}
+
+.skill-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skill-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 16px 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-size: 15px;
+  color: #1e2a36;
+} */
+
+
+/* Certifications */
+/* .certifications-block h2 {
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+.cert-list {
+  list-style: disc;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #333;
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.7;
+} */

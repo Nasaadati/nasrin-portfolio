@@ -1,0 +1,127 @@
+.contact-hero {
+  background: linear-gradient(to right, #f6fbff, #eaf3ff);
+  padding: 80px 20px 60px;
+  text-align: center;
+}
+
+.contact-hero h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #1a1a1a;
+}
+
+.lead-text {
+  font-size: 18px;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.contact-wrapper {
+  background: #f9fbff;
+  padding-bottom: 40px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Card Styling */
+.contact-form,
+.contact-info {
+  background: #ffffff;
+  padding: 30px 24px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+/* Form Styles */
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-weight: 600;
+  font-size: 14.5px;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+  transition: border 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0078ff;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #0078ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 12px rgba(0,120,255,0.15);
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #005bb5;
+}
+
+/* Contact Info Styles */
+.contact-info h3 {
+  margin-top: 0;
+  color: #004aad;
+  font-size: 20px;
+}
+
+.contact-info p {
+  font-size: 15.5px;
+  color: #333;
+  margin: 40px 0px;
+  line-height: 1;
+}
+
+.contact-info p strong {
+  display: block;
+  font-size: 13px;
+  color: #888;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.contact-info a {
+  color: #0078ff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}

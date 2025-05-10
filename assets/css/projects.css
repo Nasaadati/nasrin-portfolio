@@ -1,0 +1,100 @@
+.projects-hero {
+  background: linear-gradient(to right, #f6fbff, #eaf3ff);
+  padding: 80px 20px 60px;
+  text-align: center;
+}
+
+.projects-hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: -0.5px;
+}
+
+.lead-text {
+  font-size: 18px;
+  color: #444;
+  max-width: 720px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 36px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 80px 20px;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(180deg, #f9fbfe 0%, #f4f9fd 100%);
+  border-radius: 24px;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 26px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.04);
+  transition: all 0.35s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  opacity: 0;
+  transform: translateY(50px) scale(0.96);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.2s; }
+.project-card:nth-child(3) { animation-delay: 0.3s; }
+.project-card:nth-child(4) { animation-delay: 0.4s; }
+.project-card:nth-child(5) { animation-delay: 0.5s; }
+
+.project-card h3 {
+  color: #004aad;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.project-card p {
+  color: #333;
+  font-size: 15.5px;
+  line-height: 1.65;
+  margin-top: 8px;
+}
+
+.project-card strong {
+  color: #0078ff;
+  font-weight: 600;
+}
+
+/* Scroll-in animation */
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.06);
+}
+
+/* Tags (prep for filtering) */
+.tag {
+  display: inline-block;
+  background: #e8f1ff;
+  color: #004aad;
+  font-size: 13px;
+  padding: 4px 10px;
+  margin-right: 6px;
+  border-radius: 6px;
+  margin-top: 8px;
+  font-weight: 500;
+}
